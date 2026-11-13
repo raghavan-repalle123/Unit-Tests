@@ -22,7 +22,7 @@ describe('isNumberEven', () => {
 
   describe(('negative tests'), () => {
     it('should return false  when provided a non Even  number', () => {
-      const validatorResults = validator.isNumberEven(5);
+      const validatorResults = validator.isNumberEven(7);
 
       expect(validatorResults).to.be.equal(false);
     });
